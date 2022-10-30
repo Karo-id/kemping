@@ -1,0 +1,257 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.line {
+  max-width: 98.5vw;
+  min-width: 98.5vw;
+}
+
+.divider {
+  margin: 0 25px;
+}
+
+header {
+  height: 700px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.408) 0%,
+      rgba(0, 0, 0, 0.456) 100%
+    ),
+    url("../assets/images/hero-home.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#navigation-bar {
+  transition: all 0.2s ease-in;
+}
+
+.navbar-colored {
+  background-color: #1e1e1ef2;
+}
+
+.nav-title {
+  font-weight: 700;
+  line-height: 140%;
+
+  margin: 0 3px;
+
+  letter-spacing: 0.005em;
+}
+
+.nav-icon {
+  width: 40px;
+}
+
+.nav-title,
+.tagline,
+.sub-tagline,
+.heading-shop-text {
+  font-family: "Lato", sans-serif;
+}
+
+.hero-text {
+  transform: translateY(-50%);
+}
+
+.tagline,
+.heading-shop-text {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 47px;
+
+  width: 480px;
+  margin-bottom: 20px;
+
+  letter-spacing: 3px;
+}
+
+.sub-tagline {
+  font-size: 25px;
+  font-weight: 500;
+
+  width: 478px;
+  margin-bottom: 40px;
+
+  letter-spacing: 0.5px;
+}
+
+.btn.btn-success.btn-discover {
+  padding: 15px 50px;
+
+  border: 1px solid #446a46;
+  border-radius: 5px;
+  background: #446a46;
+}
+
+.btn-navigation > .btn {
+  border: 1px solid #446a46;
+  border-radius: 5px;
+  background: #446a46;
+}
+
+.heading-shop {
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.stuffs {
+  height: 500px;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.stuffs-title {
+  width: 131px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 77px;
+  letter-spacing: 2px;
+
+  left: 40px;
+  bottom: 30px;
+}
+
+#tent {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.408) 0%,
+      rgba(0, 0, 0, 0.456) 100%
+    ),
+    url("../assets/images/tent.jpg");
+}
+
+#boots {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.408) 0%,
+      rgba(0, 0, 0, 0.456) 100%
+    ),
+    url("../assets/images/boots.jpg");
+}
+
+#backpack {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.408) 0%,
+      rgba(0, 0, 0, 0.456) 100%
+    ),
+    url("../assets/images/backpack.jpg");
+}
+
+#jacket {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.408) 0%,
+      rgba(0, 0, 0, 0.456) 100%
+    ),
+    url("../assets/images/jacket.jpg");
+}
+
+.shop-images,
+#shop,
+#campedia {
+  margin-bottom: 80px;
+}
+
+.tagline-shop-heading {
+  margin-bottom: 40px;
+}
+
+.btn.btn-success.btn-shop {
+  padding: 12.5px 65px;
+  margin-bottom: 80px;
+  border: 1px solid #446a46;
+  border-radius: 5px;
+  background: #446a46;
+}
+
+.campedia-image {
+  width: 540px;
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+#campfire {
+  background-image: url("../assets/images/campfire.jpg");
+}
+
+.campedia-text {
+  width: 563px;
+  height: 340px;
+}
+
+.campedia-text-subtitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #446a46;
+}
+
+.campedia-text-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.campedia-text-paragraph {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 140%;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.btn.btn-success.btn-campedia {
+  padding: 10px 40px;
+  margin-bottom: auto;
+  border: 1px solid #446a46;
+  border-radius: 5px;
+  background: #446a46;
+  bottom: 40px;
+}
+
+.footer-top {
+  background: #001425;
+  height: 354px;
+  color: #fff;
+}
+
+.footer-heading {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.footer-subheading {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  background: #1e1e1e;
+  height: 40px;
+}
+
+@media screen and (min-width: 1400px) {
+  header {
+    height: 900px;
+  }
+}
